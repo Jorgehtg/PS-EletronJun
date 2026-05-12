@@ -24,15 +24,15 @@ O projeto possui três estados de funcionamento, indicados por LEDs coloridos:
 | *LED 3* | Amarelo | GPIO 5 |
 ## Como usar
  1. **Instalação de Bibliotecas:**
-    Instale a extensão PlatformIO no VsCode
-    Adicione as bibliotecas no platform.ini
-    adafruit/DHT sensor library
-    adafruit/Adafruit Unified Sensor
- 2. **Configuração do Código:**
+    * Instale a extensão PlatformIO no VsCode
+    * Adicione as bibliotecas no platform.ini
+    * adafruit/DHT sensor library
+    * adafruit/Adafruit Unified Sensor
+ 3. **Configuração do Código:**
    * Clone o repositório: git clone [https://github.com/Jorgehtg/PS-EletronJun]
    * Abra o arquivo main.cpp
    * No código, ajuste o nome e senha do wifi.
  3. **Upload:**
-   Conecte sua ESP via USB, selecione a placa e a porta corretas e clique em **Upload**.
+   * Conecte sua ESP via USB, selecione a placa e a porta corretas e clique em **Upload**.
 4. **Ajuste no Index.html**
-     Substitua o codigo de ip no index.html pelo exibido no serial monitor.
+     *Substitua o codigo de ip no index.html pelo exibido no serial monitor.
