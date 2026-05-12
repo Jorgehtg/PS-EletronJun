@@ -104,7 +104,7 @@ void handleModo() {
 void setup() {
   Serial.begin(115200);
 
-  WiFi.begin("Galaxy Jorge", "farinhas");
+  WiFi.begin("nome do wifi", "senha do wifi");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print("."); // Imprime pontinhos enquanto espera
